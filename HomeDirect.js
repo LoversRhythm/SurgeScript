@@ -1,8 +1,8 @@
-﻿/**
+/**
  * Surge Event Script: Auto Switch Outbound Mode based on SSID
  * Event: network-changed
  */
-
+ 
 // 1. Define your Home SSID
 const HOME_SSID = "@MAINCHU_SS_5G"; 
 
@@ -18,4 +18,3 @@ if (currentSSID === HOME_SSID) {
 
 // 4. Signal script completion
 $done();
-
